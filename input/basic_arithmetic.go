@@ -7,11 +7,6 @@ x = a + 5 * 2
 
 // hybrid operation
 y = x + 3.2 * (a - 2.3)
-
-/*
- * Mod operation need to consider type checking.
- * If float involve into mod operation, we expext to see the error message.
- */
 x = (x - 1) % 2
 x = y % 2
 
